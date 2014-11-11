@@ -1,0 +1,22 @@
+{
+    "shell": true,
+    "variants": [
+        {
+            "shell": true,
+            "name": "Rebuild",
+            "cmd": "cargo clean && cargo build"
+        },
+        {
+            "shell": true,
+            "name": "Run",
+            "cmd": "cargo run"
+        },
+        {
+            "shell": true,
+            "name": "Rebuild and Run",
+            "cmd": "cargo clean && cargo run"
+        }
+    ],
+    "cmd": "cargo build",
+    "selector": "source.rs"
+}
